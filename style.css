@@ -1,0 +1,92 @@
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: rgb(229, 229, 229)
+}
+
+.container {
+    width: 370px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2.5px solid #bfbfbf;
+}
+
+.logo {
+    height: 61px;
+}
+
+.user-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+section {
+    border-bottom: 30px solid #EDEDED;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+}
+
+.name-place {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 2.3px;
+}
+
+.username { 
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.place {
+    position: relative;
+    bottom: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.selfie-art {
+    width: 370px;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px 12px;
+}
+
+.btns {
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    width: 26px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+}
+
+.likes, .commenter {
+    font-weight: 700;
+}
